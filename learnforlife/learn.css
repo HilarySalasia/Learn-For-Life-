@@ -1,0 +1,101 @@
+body{
+background-color:lightblue;
+}
+.wrap{
+width:100%;
+height:100%;
+
+}
+.formstyle{
+width:100%;
+height:30px;
+padding:10px;
+margin:5px;
+border-radius:15px;
+
+}
+#header{
+width:100%;
+height:15%;
+border-style:solid;
+border-width:1.5px;
+border-color:blue;
+border-left-style:hidden;
+border-right-style:hidden;
+}
+#nav{
+width:100%;
+height:5%;
+background-color:black;
+opacity:0.2;
+}
+#content{
+width:100%;
+height:70%;
+overflow: scroll;
+background-image: url("Learn For Life.png");
+background-repeat: no-repeat;
+background-size:100%;
+
+}
+#footer{
+width:100%;
+height:15%;
+
+}
+ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+li{
+float:left;
+}
+li a {
+    display:block;
+	color:yellow;
+text-align:center;
+padding:7px 16px;
+text-decoration:none;
+}
+#textareas{
+width:100%;
+height:15%;
+margin:5px;
+border-radius:15px;
+padding:10px;
+}
+#buttons{
+width:25%;
+height:15%;
+background-color:blue;
+border-style:transparent;
+}
+.error{
+
+color:red;
+}
+#projectview{
+width:30%;
+min-height:36%;
+background-color:white;
+opacity:0.8;
+display: inline-block;
+float:left;
+margin:10px;
+}
+#label{
+color:green;
+background-color:white;
+opacity:0.7;
+}
+#searchbtn{
+width:25%;
+height:5%;
+background-color:blue;
+border-style:transparent;
+
+
+}
